@@ -18,7 +18,7 @@ function contarTiempo(){
     pararTiempo = setInterval(() => {
         tiempoRestante--;
         mostrarTiempo.innerHTML = 'Tiempo: ' + tiempoRestante + ' segundos';
-        if(tiempoRestante === 0){
+        if(tiempoRestante == 0){
             clearInterval(pararTiempo);
             mostrarPerdido();
         }

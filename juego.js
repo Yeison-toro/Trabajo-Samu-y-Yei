@@ -42,18 +42,18 @@ function destapar(id){
 
     mostrarTarjetas++;
 
-    if(mostrarTarjetas === 1){
+    if(mostrarTarjetas == 1){
         tarjeta1 = document.getElementById(id);
         primerResultado = letras[id];
         tarjeta1.innerHTML = letras[id];
         tarjeta1.disabled = true;
-    } else if(mostrarTarjetas === 2){
+    } else if(mostrarTarjetas == 2){
         tarjeta2 = document.getElementById(id);
         segundoResultado = letras[id];
         tarjeta2.innerHTML = segundoResultado;
         tarjeta2.disabled = true;
 
-        if(primerResultado === segundoResultado){
+        if(primerResultado == segundoResultado){
             mostrarTarjetas = 0;
             puntaje++;
             mostrarPuntaje.innerHTML = 'Puntaje: ' + puntaje;

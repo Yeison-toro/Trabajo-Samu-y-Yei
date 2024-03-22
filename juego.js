@@ -13,7 +13,6 @@ let mostrarPuntaje = document.getElementById('puntaje');
 
 let letras = ["A","A","B","B","C","C","D","D","E","E","F","F","G","G","H","H","I","I","J","J","K","K","L","L","M","M","N","N","Ñ","Ñ"];
 letras = letras.sort(() => {return Math.random() - 0.5});
-console.log(letras)
 
 function contarTiempo(){
     pararTiempo = setInterval(() => {

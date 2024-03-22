@@ -1,3 +1,4 @@
+
 body {
     background: rgb(231, 76, 60);
     font-family: 'Arial', sans-serif;
@@ -8,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Poltawski Nowy", serif;
 }
 
 main {
